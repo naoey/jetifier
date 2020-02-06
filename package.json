@@ -1,7 +1,7 @@
 {
-  "name": "jetifier",
-  "version": "1.6.5",
-  "description": "jetifier from Android Studio, in npm package format",
+  "name": "@naoey/jetifier",
+  "version": "1.0.0",
+  "description": "Fork of mikehardy/jetifier, mainly to support selective jetifying of npm packages",
   "main": "index.js",
   "bin": {
     "jetifier-standalone": "./bin/jetifier-standalone",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mikehardy/jetifier.git"
+    "url": "git+https://github.com/naoey/jetifier.git"
   },
   "keywords": [
     "node",
@@ -31,13 +31,18 @@
       "name": "Yassine Fathi",
       "email": "yassine@flui.city",
       "url": "https://github.com/m4tt72"
+    },
+    {
+      "name": "naoey",
+      "email": "naoey@protonmail.ch",
+      "url": "https://github.com/naoey"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mikehardy/jetifier/issues"
+    "url": "https://github.com/naoey/jetifier/issues"
   },
-  "homepage": "https://github.com/mikehardy/jetifier#readme",
+  "homepage": "https://github.com/naoey/jetifier#readme",
   "devDependencies": {
     "np": "^5.1.3"
   },
